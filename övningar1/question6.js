@@ -3,7 +3,7 @@
 
 function minFour(words) {
   const filteredWords = words.filter((word) => {
-    return word.length > 4;
+    return word.length >= 4;
   });
 
   return filteredWords;
