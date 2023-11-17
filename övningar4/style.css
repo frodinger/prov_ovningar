@@ -1,0 +1,20 @@
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.userColumn {
+    padding-left: 10px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .userContainer {
+      flex-direction: row;
+    }
+
+    .userColumn {
+        padding-left: 10px;
+    }
+  }
